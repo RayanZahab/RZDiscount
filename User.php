@@ -12,7 +12,7 @@
  * @author Rzahab
  */
 abstract class User {
-    public abstract function getDiscount();
+    public abstract function getDiscount($discountable_total);
 }
 
 class Employee extends User{
@@ -33,18 +33,24 @@ class Affiliate extends User{
 
 class Customer extends User{
     public $year_joined;
-    
+    protected $loyal;
+
+
     public function __construct($_year_joined = Null){
         $this->year_joined = ( is_null($_year_joined))? date("Y"): $_year_joined;
         $this->setLoyalty();
     }
+    private function setLoyalty()
+    {
+        $this->loyal = (date("Y") - $this->year_joined > 2);
+    }
     
     public function getDiscount($discountable_total) {
-        return isLoyal()? 0.05*$discountable_total: 0;
+        return $this->isLoyal()? 0.05*$discountable_total: 0;
     }
 
     public function isLoyal() {
-        return (date("Y") - $this->year_joined >2);
+        return $this->loyal;
     }
 
 }
