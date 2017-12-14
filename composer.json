@@ -1,0 +1,15 @@
+{
+    "require": {
+        "symfony/validator":         "2.1.*",
+        "doctrine/dbal":             "2.2.*",
+        "monolog/monolog":           "dev-master",
+        "jtreminio/test-extensions": "dev-master",
+         "phpunit/phpunit": "5.7.9"
+    },
+    "autoload": {
+        "psr-0": {
+            "phpUnitTutorial": ""
+        }
+    },
+    "minimum-stability": "dev"
+}

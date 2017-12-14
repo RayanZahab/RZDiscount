@@ -13,15 +13,21 @@ and open the template in the editor.
         <?php
         include  'User.php';
         include  'Bill.php';
+        error_reporting(-1);
+ini_set('display_errors', 'On');
+        use PHPUnit\Framework\TestCase;
         
         $items = array();
         $items[] = ItemFactory::build("Grocery", "Banana","20");
         $items[] = ItemFactory::build("Electronic", "TV","900");
         $items[] = ItemFactory::build("Others", "Blanket","230");
         $items[] = ItemFactory::build("Cleaners", "Soap","14");
-        echo "<pre>The Cart: <BR>";
-        print_r($items);
+        echo "<pre>";
+        echo "raaay";
+        echo phpversion(); 
         
+        echo "The Cart: <BR>";
+        print_r($items);
         echo "===============================<BR>";
         echo "The Employee Summary: <br>";      
         $employee = new Employee();
