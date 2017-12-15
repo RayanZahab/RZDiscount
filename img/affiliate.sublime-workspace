@@ -1,0 +1,290 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addItems"
+			],
+			[
+				"cli",
+				"clientType"
+			],
+			[
+				"test",
+				"test_order"
+			],
+			[
+				"o",
+				"order"
+			],
+			[
+				"form",
+				"formtxt"
+			],
+			[
+				"sp",
+				"specific_form"
+			],
+			[
+				"pos",
+				"post_test"
+			],
+			[
+				"post",
+				"post_test2"
+			],
+			[
+				"pre",
+				"pre_test"
+			],
+			[
+				"question",
+				"question_text"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/RZDiscount/phpUnitTutorial/Item.php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/User.php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/Customer.php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/Employee_ts.php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/Test/BillTest.php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/ItemFactory.php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/Affiliate.php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/Employee.php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/Item_Grocery.php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/Item_Others.php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/Item_Electronic.php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/Item (copy).php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/EmployeeTest.php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/index.php",
+		"/var/www/html/RZDiscount/phpUnitTutorial/README.md",
+		"/var/www/html/RZDiscount/phpUnitTutorial/BillTest.php",
+		"/var/www/html/RZDiscount/Bill.php",
+		"/var/www/html/RZDiscount/Item.php",
+		"/var/www/html/RZDiscount/EmployeeTest.php",
+		"/var/www/html/RZDiscount/Test/BillTest.php",
+		"/var/www/html/RZDiscount/composer.json",
+		"/var/www/html/RZDiscount/phpUnitTutorial/Bill.php",
+		"/var/www/html/RZDiscount/User.php",
+		"/var/www/html/RZDiscount/BillTest.php",
+		"/var/www/html/RZDiscount/phpunit.xml",
+		"/var/www/html/RZDiscount/composer.phar",
+		"/home/rayan/Desktop/json_to_csv.py",
+		"/home/rayan/loc",
+		"/home/rayan/nationality",
+		"/home/rayan/Desktop/centers.backup",
+		"/home/rayan/StudentRegistration/config/urls.py",
+		"/home/rayan/clm/student_registration/users/migrations/0009_auto_20170731_2134.py",
+		"/home/rayan/StudentRegistration/student_registration/registrations/forms.py",
+		"/home/rayan/clm/student_registration/clm/serializers.py",
+		"/home/rayan/clm/student_registration/clm/models.py",
+		"/home/rayan/YouthRefferalPlatform/referral_platform/clm/models.py",
+		"/home/rayan/clm/student_registration/clm/forms.py",
+		"/home/rayan/clm/student_registration/clm/tables.py",
+		"/home/rayan/clm/config/settings/production.py",
+		"/home/rayan/clm/student_registration/locations/models.py",
+		"/home/rayan/clm/student_registration/clm/views.py",
+		"/home/rayan/clm/config/settings/base.py",
+		"/home/rayan/clm/config/settings/local.py",
+		"/home/rayan/clm/student_registration/alp/forms.py",
+		"/home/rayan/clm/student_registration/enrollments/forms.py",
+		"/home/rayan/clm/student_registration/alp/utils.py",
+		"/home/rayan/clm/student_registration/attendances/forms.py",
+		"/home/rayan/clm/student_registration/templates/clm/bln_edit.html",
+		"/home/rayan/clm/config/urls.py",
+		"/home/rayan/clm/student_registration/templates/pages/home.html",
+		"/home/rayan/referral_platform/referral_platform/search/views.py",
+		"/home/rayan/referral_platform/referral_platform/users/urls.py",
+		"/home/rayan/referral_platform/config/urls.py",
+		"/home/rayan/referral_platform/referral_platform/search/models.py",
+		"/home/rayan/referral_platform/config/settings/common.py",
+		"/home/rayan/referral_platform/referral_platform/search/urls.py",
+		"/home/rayan/referral_platform/referral_platform/youth/urls.py",
+		"/home/rayan/referral_platform/referral_platform/youth/views.py",
+		"/home/rayan/referral_platform/referral_platform/courses/views.py",
+		"/home/rayan/referral_platform/referral_platform/templates/base.html",
+		"/home/rayan/referral_platform/referral_platform/templates/courses/overview.html",
+		"/home/rayan/referral_platform/referral_platform/courses/models.py",
+		"/home/rayan/Desktop/11fc6f97-8168-4b12-a69f-fd09edb8ed65",
+		"/home/rayan/referral_platform/referral_platform/static/locale/en/LC_MESSAGES/django.po",
+		"/home/rayan/referral_platform/referral_platform/youth/forms.py",
+		"/home/rayan/firstdjango/myblog/polls/views.py",
+		"/home/rayan/firstdjango/myblog/polls/urls.py",
+		"/home/rayan/firstdjango/myblog/myblog/urls.py",
+		"/home/rayan/referral_platform/referral_platform/users/views.py",
+		"/home/rayan/youthrefferal/referral_platform/locations/models.py",
+		"/home/rayan/youthrefferal/config/settings/local.py",
+		"/home/rayan/youthrefferal/config/settings/common.py",
+		"/home/rayan/compiler/student_registration/enrollments/forms.py",
+		"/home/rayan/compiler/config/settings/base.py",
+		"/home/rayan/compiler/test.yml",
+		"/home/rayan/compiler/config/urls.py",
+		"/home/rayan/compiler/student_registration/enrollments/models.py",
+		"/home/rayan/compiler/student_registration/enrollments/admin.py",
+		"/home/rayan/compiler/student_registration/enrollments/serializers.py",
+		"/home/rayan/compiler/student_registration/enrollments/urls.py",
+		"/home/rayan/compiler/student_registration/enrollments/views.py",
+		"/home/rayan/firstdjango/myblog/polls/templates/polls/index.html",
+		"/home/rayan/firstdjango/myblog/myblog/settings.py",
+		"/home/rayan/firstdjango/myblog/polls/models.py",
+		"/home/rayan/firstdjango/myblog/polls/admin.py",
+		"/home/rayan/firstdjango/myblog/db.sqlite3"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "affiliate.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
