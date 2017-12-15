@@ -41,7 +41,6 @@ class Bill {
     }
 
     public function above100Discount() {
-        echo "above:".floor($this->total / 100) * 5 ."<BR>";
         return floor($this->total / 100) * 5;
     }
 

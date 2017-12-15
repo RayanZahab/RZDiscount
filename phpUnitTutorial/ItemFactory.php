@@ -18,7 +18,7 @@ class ItemFactory {
  
     public static function build($product_type, $name, $price)
     {
-        echo $product = "Item_" . ucwords($product_type);
+        $product = "Item_" . ucwords($product_type);
         if(class_exists($product))
         {
           return new $product($name, $price);
