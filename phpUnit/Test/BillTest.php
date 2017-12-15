@@ -1,6 +1,6 @@
 <?php
 
-foreach (glob("/var/www/html/RZDiscount/phpUnitTutorial/*.php") as $filename)
+foreach (glob("/var/www/html/RZDiscount/phpUnit/*.php") as $filename)
 {
     require_once( $filename);
 }
@@ -50,7 +50,6 @@ class BillTest extends \PHPUnit_Framework_TestCase
         $items[] = ItemFactory::build("Others", "Blanket","230");
         $items[] = ItemFactory::build("Cleaners", "Soap","14");
         $bill->addItems($items);
-
         $result = $bill->getFinalPrice();
         $this->assertEquals($expectedResult, $result);
 
@@ -115,7 +114,7 @@ class BillTest extends \PHPUnit_Framework_TestCase
                 array("Employee","94"),
                 array("Affiliate","94"),
                 array("Loyal","94"),
-                array("Customer","11"),
+                array("Customer","94"),
             );
         }
 
