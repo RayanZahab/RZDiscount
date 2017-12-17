@@ -61,5 +61,7 @@ class Bill {
         }
         return $discountable_total;
     }
+
+    
 }
 

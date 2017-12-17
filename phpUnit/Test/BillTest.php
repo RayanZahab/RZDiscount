@@ -18,7 +18,7 @@ class BillTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @param string $clientType String to be sluggified
+     * @param string $clientType 
      * @param string $expectedResult What we expect our last price to be
      * @dataProvider providerTestGetFinalPrice
      */
@@ -68,7 +68,7 @@ class BillTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @param string $clientType String to be sluggified
+     * @param string $clientType 
      * @param string $expectedResult What we expect our last price to be
      * @dataProvider providerTestGetFinalPriceBelow100
      */
@@ -119,7 +119,7 @@ class BillTest extends \PHPUnit_Framework_TestCase
         }
 
     /**
-     * @param string $clientType String to be sluggified
+     * @param string $clientType 
      * @param string $expectedResult What we expect our last price to be
      * @dataProvider providerTestGetFinalPriceOnlyGroceryBelow100
      */
@@ -168,7 +168,7 @@ class BillTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-    * @param string $clientType String to be sluggified
+    * @param string $clientType 
     * @param string $expectedResult What we expect our last price to be
     * @dataProvider providerTestGetFinalPriceOnlyGroceryAbove100
     */
